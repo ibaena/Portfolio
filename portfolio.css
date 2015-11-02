@@ -43,9 +43,9 @@ aside {
 }
 footer{
     bottom: 0;
-    position: absolute;
+    position: relative;
     width: 100%;
-    text-align:center;
+    text-align:left;
 }
 .header{
 	text-align: center;
@@ -62,4 +62,7 @@ footer{
 }*/
 .profile{
 	border-radius: 50%;
+}
+.contact{
+	color: white;
 }
