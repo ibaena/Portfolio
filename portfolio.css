@@ -22,7 +22,8 @@ header{
 }
 
 html { 
-  background: url(city.jpg) no-repeat center center fixed; 
+	background-color: black;
+  /*background: url(city.jpg) no-repeat center center fixed;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
