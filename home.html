@@ -1,55 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="portfolio.css">
-	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-	<title>Ivan's Portfolio Page</title>
+	<title>My Layout</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<nav>
-		<a href="https://www.facebook.com/profile.php?id=9390215"><img src="facebook.png" width="40px" height="40px" ></a>
-		<a href="https://twitter.com/NotTheFakeIvanB"><img src="twitter.png" width="40px" height="40px"></a>
-		<a href="https://github.com/ibaena"><img src="gitcircle.png" width="40px" height="40px"></a>
-		<a href="https://www.linkedin.com/pub/ivan-baena/106/995/722"><img src="linkedin.png" width="40px" height="40px"></a>
-		<a href="Blog"><img src="blog.png" width="40px" height="40px"></a>
-	</nav>
-	<section class="header">
-		<header>
-			<img src="imonkey.jpg" height="200" width="200" class="profile" />
-			<h1>Ivan Baena</h1>
-    		<p> Aspiring Full Stacks Web Developer</p>	
-		</header>
-	</section><br />
-	<section class="about">
-		<h2>About Me</h2>
-		<article>I am a aspiring web developer from Tobyhanna, Pennsylvania and currently living in Bayonne, New Jersey. I am currently atteneding Rutgers Coding Bootcamp in New Brunswick, New Jersey. If you are a business seeking a web presence or an employer looking to hire, you can get in touch with me <a href="mailto:ivan.baena04@gmail.com">here.</a></article> 
-	</section><br />
-	<section class="skills">
-		<h2>Skills</h2>
-		<article>I have a diverse set of skills, aside from my future programming languages which will include HTML, CSS, and Javascript. I also possess computer break fix skills. </article> 
-	</section><br />
-	<section class="work">
-		<h2>Work History</h2>
-		<article>
-			<h3>Domus Painting</h3>
+<header>
+	<h3>Ivan Baena</h3>
+</header>
+<nav>
+	<ul>
+		<li><a href="https://www.facebook.com/profile.php?id=9390215"><img src="facebook.png" width="40px" height="40px" ></a></li>
+		<li><a href="https://twitter.com/NotTheFakeIvanB"><img src="twitter.png" width="40px" height="40px"></a></li>
+		<li><a href="https://github.com/ibaena"><img src="gitcircle.png" width="40px" height="40px"></a></li>
+		<li><a href="https://www.linkedin.com/pub/ivan-baena/106/995/722"><img src="linkedin.png" width="40px" height="40px"></a></li>
+		<li><a href="Blog"><img src="blog.png" width="40px" height="40px"></a></li>
+	</ul>
+</nav>
+<div class="sideright">
+	<h2>Coding Skills</h2>
+		<p>HTML5</p>
+		<p>CSS</p>
+		<p>Javascript</p>
+		<p>Git</p>
+		<p>Node.js</p>
+</div>
+<div class="sideright2">
+	<h2>Education</h2>
+		<p>Rutgers Coding Bootccamp</p>
+</div>
+<div>
+	<img class="imgside" src="imonkey.jpg" height="200px" width="150px">
+</div>
+
+<section class="main">
+	<h1 class="about">Who Am I</h1>
+	<p>I am a aspiring web developer from Tobyhanna, Pennsylvania and currently living in Bayonne, New Jersey. I am currently atteneding Rutgers Coding Bootcamp in New Brunswick, New Jersey. If you are a business seeking a web presence or an employer looking to hire, you can get in touch with me <a href="mailto:ivan.baena04@gmail.com">here.</a></p>
+</section>
+<section class="where">
+	<h1 class="about">Where Have I Been</h1>
+	<h2>Domus Painting</h2>
 			<p>Operation Manager - I ran day to day operations handled customer relations and ensured employees were happy and work was up to 5 star standards</p>
-			<h3>Sanofi Pasteur</h3>
+	<h2>Sanofi Pasteur</h2>
 			<p>Help Desk Analyst - provide technical support for the information systems department</p>
-		</article> 
-	</section>
-	<section class="education">
-		<h2>Education</h2>
-		<article>Rutgers Coding Bootcamp -  Oct 2015 - Present</article> 
-	</section><br />
-	<section class="hobby">
-		<h2>Hobbies</h2>
-		<article>I am a very active person and I love to play sports and workout. In the winter I love to go snowboarding and in the spring I am always down for nice hike up a mountainside. When I'm home and i have some downtime my xbox one is my bestfriend.</article> 
-	</section><br />
-	<aside> Independent Projects I worked on</aside>
-	<hr />
-	<h3>Contact Me</h3>
-	<section class="contact">
-		<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	<h2>Sanofi Pasteur</h2>
+			<p>Desktop Technician - provide technical support for the information systems department in an face to face enviroment</p>
+</section>
+<section class="hobby">
+	<h1 class="about">Hobbies</h1>
+	<p>I am a very active person and I love to play sports and workout. In the winter I love to go snowboarding and in the spring I am always down for nice hike up a mountainside. When I'm home and i have some downtime my xbox one is my bestfriend..</p>
+</section>
+
+
+<footer>
+<ul>
+	<li><a href="">Lets Get In Touch</a></li>
+	<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
 		<div class="row">
 			<label for="name">Your name:</label><br />
 			<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
@@ -64,12 +70,8 @@
 		</div>
 		<input id="submit_button" type="submit" value="Send email" />
 		</form>	
-	</section>	<br />				
-	<footer>
-		<p>Posted by: Ivan Baena</p>
-  		</div>
-	</footer>
-
-
+</ul>
+	&copy; 2015 Ivan Baena
+</footer>
 </body>
 </html>
